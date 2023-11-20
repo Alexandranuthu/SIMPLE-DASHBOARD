@@ -1,0 +1,63 @@
+.Dashboard-list li {
+    list-style: none;
+}
+.Dashboard-list{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.add-user {
+    display: inline-flex; /* or inline-flex, depending on your preference */
+    align-items: center; /* Align items vertically in the center */
+    color: black;
+    text-decoration: none; 
+    width: 150px;
+}
+
+.add-user svg {
+    margin-right: 8px; /* Adjust the margin based on your design */
+}
+.student-list {
+    display: inline-flex; /* or inline-flex, depending on your preference */
+    align-items: center; /* Align items vertically in the center */
+    color: black;
+    text-decoration: none;
+    width: 150px;
+    
+}
+.delete-user{
+    display: inline-flex; /* or inline-flex, depending on your preference */
+    align-items: center; /* Align items vertically in the center */
+    color: black;
+    text-decoration: none;
+    width: 150px;
+}
+.update-user{
+    display: inline-flex; /* or inline-flex, depending on your preference */
+    align-items: center; /* Align items vertically in the center */
+    color: black;
+    text-decoration: none;
+    width: 150px;
+}
+link{
+    text-decoration: none;
+    color: black;
+}
+.add{
+    width: 100px;
+    height: 100px;
+}
+.get{
+    width: 100px;
+    height: 100px;
+}
+.delete{
+    width: 100px;
+    height: 100px;
+}
+
+.update{
+    width: 100px;
+    height: 100px;
+}
